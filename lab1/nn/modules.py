@@ -51,7 +51,7 @@ class Module(object):
 
 class Linear(Module):
 
-    def __init__(self, in_length: int, out_length: int):
+    def __init__(self, in_length: int, out_length: int,x):
         """Module which applies linear transformation to input.
 
         Args:
